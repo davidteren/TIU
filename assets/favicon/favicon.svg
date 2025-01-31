@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-    <rect width="512" height="512" rx="64" fill="#3b82f6"/>
-    <path d="M160 128h192M256 128v256" 
-          stroke="white" 
-          stroke-width="64" 
-          stroke-linecap="round"
-          fill="none"/>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="16" cy="16" r="15" fill="url(#gradient)" stroke="blue" stroke-width="1"/>
+  
+  <!-- TIU as paths -->
+  <g transform="translate(6,8)" fill="green">
+    <!-- T -->
+    <rect x="0" y="0" width="6" height="2"/>
+    <rect x="2" y="0" width="2" height="12"/>
+    <!-- I -->
+    <rect x="8" y="0" width="2" height="12"/>
+    <!-- U -->
+    <path d="M12 0h2v10c0 1 0.5 1.5 1.5 1.5s1.5-0.5 1.5-1.5v-10h2v10c0 2-1.5 3-3.5 3s-3.5-1-3.5-3z"/>
+  </g>
+
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
 </svg>
