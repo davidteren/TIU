@@ -1,0 +1,44 @@
+# General development artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+*.log
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build outputs
+/dist/
+/build/
+
+# Image processing caches
+.cache/
+
+# Local development overrides
+override/
+
+# Optional: Ignore placeholder images
+# Uncomment when adding real photos
+# images/*.jpg
+# images/*.png
+
+# GitHub Pages specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+.codebuddy
+.qodo
