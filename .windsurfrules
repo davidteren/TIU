@@ -1,39 +1,10 @@
-# WindSurf Configuration for TerenItUp Project
-# Last updated: 2025-01-31 @ 03:07 GMT+2
-
-core_rules:
-  language: English
-  communication_style: professional
-  documentation_standard: JSDoc
-
-development_constraints:
-  build_system: none # Static site (GitHub Pages)
-  css_framework: tailwind
-  js_restrictions:
-    - no_jquery
-    - no_legacy_apis: ['document.write()', 'eval()']
-
-file_handling:
-  protected_paths:
-    - /images/*
-    - /config/production.env
-  autoformat_blacklist:
-    - legacy-scripts/
-    - third-party/
-
-security:
-  sensitive_patterns:
-    - API_KEY
-    - SECRET_TOKEN
-  allowed_domains:
-    - linkedin.com
-    - twitter.com
-
-testing:
-  browser_support: ['last 2 Chrome versions', 'Safari 15+']
-  accessibility_standard: WCAG 2.1 AA
-
-error_handling:
-  report_critical_errors: true
-  validation_level: strict
-  
+1. Speak to me in English
+2. This is a GitHub Pages static site
+3. Only use vanilla JavaScript and Tailwind CSS for styling
+4. No third-party libraries or frameworks
+5. Best in class UX and UI Principles
+6. Performance optimized (98+ Lighthouse)
+7. Mobile-first design
+8. Responsive design
+9. GitHub Pages deployment
+10. GitHub Actions for automatic deployment
